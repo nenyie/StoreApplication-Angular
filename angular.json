@@ -107,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "StoreAPP-Angular"
+  "defaultProject": "StoreAPP-Angular",
+  "cli": {
+    "defaultCollection": "@ngrx/schematics"
+  }
 }
