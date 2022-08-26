@@ -8,6 +8,7 @@ import { StoreModule } from '@ngrx/store';
 import * as fromProduct from './store/product.reducer';
 import { EffectsModule } from '@ngrx/effects';
 import { ProductEffects } from './store/product.effects';
+import { ProductService } from './service/product.service';
 
 
 @NgModule({
@@ -24,7 +25,9 @@ import { ProductEffects } from './store/product.effects';
 
   exports: [
     ProductComponent
-  ]
+  ],
+
+  providers: [ProductService]
 })
 export class ProductModule { }
 

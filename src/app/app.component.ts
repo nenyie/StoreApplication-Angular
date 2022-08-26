@@ -1,4 +1,6 @@
+import { IProduct } from './product/models/product';
 import { Component } from '@angular/core';
+import { ProductService } from './product/service/product.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +9,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+ 
+  constructor() { }
+
+  ngOnInit(): void {
+ 
+  } 
+
+ 
 }

@@ -1,4 +1,11 @@
 <p class="new">product works!</p>
-<p class="new">product works!</p>
-<p class="new">product works!</p>
-<p class="new">product works!</p>
+
+<div>
+<ul>
+    <li *ngFor="let product of products">
+        {{ product.productPrice}}
+        {{ product.productName}}      
+        {{ product.activateReorderLevel }}
+    </li>
+</ul>
+</div>
